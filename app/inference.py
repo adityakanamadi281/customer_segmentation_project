@@ -10,13 +10,13 @@ st.title("Customer Segmentation App")
 st.write("Enter a customer details to predict the segment")
 
 #"Age", "Income", 'TotalSpend', 'NumWebPurchases' , 'NumStorePurchases',  'NumWebVisitsMonth', 'Recency'
-age = st.number_input("Age", min_value=18,max_value=100, value=35)
-income = st.number_input("Income", min_value=0, max_value=200000,value=50000)
-total_spend = st.number_input("TotalSpend", min_value=0, max_value=5000, value=1000)
-num_web_purchases = st.number_input("NumWebPurchases", min_value=0, max_value=100, value=10)
-num_store_purchases = st.number_input("NumStorePurchases", min_value=0, max_value=100, value=10)
-num_web_visits_month = st.number_input("NumWebVisitsMonth",min_value=0, max_value=50, value=3)
-recency = st.number_input("Recency",min_value=0, max_value=365, value=30)
+age = st.number_input("Age", min_value=18,max_value=100)
+income = st.number_input("Income", min_value=0, max_value=200000)
+total_spend = st.number_input("TotalSpend", min_value=0, max_value=5000)
+num_web_purchases = st.number_input("NumWebPurchases", min_value=0, max_value=100)
+num_store_purchases = st.number_input("NumStorePurchases", min_value=0, max_value=100)
+num_web_visits_month = st.number_input("NumWebVisitsMonth",min_value=0, max_value=50)
+recency = st.number_input("Recency",min_value=0, max_value=365)
 
 
 
