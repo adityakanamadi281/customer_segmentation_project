@@ -35,7 +35,7 @@ The model clusters customers based on the following key features carefully extra
 
 1. **Clone the repository and navigate to the project directory:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/adityakanamadi281/customer_segmentation_project.git
     cd customer_segmentation_project
     ```
 
